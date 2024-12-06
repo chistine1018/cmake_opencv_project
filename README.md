@@ -1,5 +1,7 @@
 ﻿# cmake_opencv_project
 
+Clone 後build folder先砍掉，自己照下術步驟重build
+
 事前準備下載CMake (3.31.1)  
 $ cmake /V  
 https://cmake.org/download/ 官網  
