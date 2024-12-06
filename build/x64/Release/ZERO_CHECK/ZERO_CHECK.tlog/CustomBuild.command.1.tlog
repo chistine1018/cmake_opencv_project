@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\OTHERPROJECT\DEEPLEARNING\CMAKE_OPENCV_PROJECT_BYANSON\BUILD\CMAKEFILES\D8774F78E89DDFC87A05D5ED7190B3FF\GENERATE.STAMP.RULE
+setlocal
+C:\Users\user\anaconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/user/Downloads/OtherProject/DeepLearning/cmake_opencv_project_byAnson -BC:/Users/user/Downloads/OtherProject/DeepLearning/cmake_opencv_project_byAnson/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/user/Downloads/OtherProject/DeepLearning/cmake_opencv_project_byAnson/build/OpenImage.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
